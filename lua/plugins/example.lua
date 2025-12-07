@@ -58,10 +58,12 @@ return {
     -- change some options
     opts = {
       defaults = {
+        no_ignore = false,
         layout_strategy = "horizontal",
         layout_config = { prompt_position = "top" },
         sorting_strategy = "ascending",
         winblend = 0,
+        file_ignore_patterns = { ".gitignore" },
       },
     },
   },
